@@ -17,8 +17,8 @@ beshify.addEventListener('click', () => {
 })
 
 copy.addEventListener('click', () => {
-    beshy.select();
-    beshy.setSelectionRange(0, 99999)
+    // beshy.select();
+    // beshy.setSelectionRange(0, 99999)
 
     navigator.clipboard.writeText(beshy.value)
 })
