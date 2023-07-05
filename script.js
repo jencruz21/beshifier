@@ -13,7 +13,7 @@ beshify.addEventListener('click', () => {
             beshifiedText += value[i]
         }
     }
-    beshy.value = beshifiedText
+    beshy.value = beshifiedText + "🤸‍♀️"
 })
 
 copy.addEventListener('click', () => {
