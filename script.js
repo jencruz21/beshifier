@@ -13,7 +13,14 @@ beshify.addEventListener('click', () => {
             beshifiedText += value[i]
         }
     }
-    beshy.value = beshifiedText + "🤸‍♀️"
+
+    const rand = Math.floor(Math.random() * (10 - 1) + 1)
+    let tumble = ""
+    
+    for (let i = 0; i < rand; i++) {
+        tumble += "🤸‍♀️"
+    }
+    beshy.value = beshifiedText + tumble 
 })
 
 copy.addEventListener('click', () => {
